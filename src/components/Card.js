@@ -6,31 +6,29 @@ import { useState } from 'react';
 import UseCase from './UseCase';
 import Launch from './Launch';
 
-// const elementDiv = document.querySelector("use-case-div");
+const textContent = [
+  {
+    header: "Welcome! First things first...",
+    subText: "You can always change them later."
+  },
+  {
+    header: "Let's set up a home for all your work",
+    subText: "You can always create another workspace later."
+  },
+  {
+    header: "How are you planning to use Eden?",
+    subText: "We'll streamline your setup experience accordingly."
+  },
+  {
+    header: "Congratulations, ",
+    subText: "You have completed onboarding, you can start using Eden!"
+  },
+];
 
 export default function Card() {
   // const [progressbar, setProgressBar] = useState(1);
   const [page, setPage] = useState(1);
-  const [dispName, setDispName] = useState('Allan');
-  
-  const textContent = [
-    {
-      header: "Welcome! First things first...",
-      subText: "You can always change them later."
-    },
-    {
-      header: "Let's set up a home for all your work",
-      subText: "You can always create another workspace later."
-    },
-    {
-      header: "How are you planning to use Eden?",
-      subText: "We'll streamline your setup experience accordingly."
-    },
-    {
-      header: "Congratulations, ",
-      subText: "You have completed onboarding, you can start using Eden!"
-    },
-  ];
+  const [dispName, setDispName] = useState('Allan'); 
 
   function focusElement(event) {
     // event.target.focus();
