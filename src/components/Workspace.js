@@ -24,7 +24,7 @@ export default function Workspace({onButtonClick, textContent}) {
         <div className="workspace-div">
           <span className="span-url">www.eden.com/</span>
           <input 
-            style={{borderRadius: '0 5px 5px 0', width: 'inherit'}}
+            style={{borderRadius: '0 5px 5px 0', overflow: 'hidden'}}
             className="text-input"
             id="workspaceurl"
             type="text"
