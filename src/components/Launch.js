@@ -8,7 +8,7 @@ export default function Launch({textContent, dispName}) {
 
       <h2 className="heading-text">{textContent.header} {dispName}!</h2>
       <span className="sub-text">{textContent.subText}</span>
-
+      
       <button className="button-style launch-button">Launch Eden</button>
     </React.Fragment>
   )

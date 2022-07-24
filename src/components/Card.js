@@ -46,7 +46,7 @@ export default function Card() {
   }
 
   return (
-    <div className="card-container">
+    <div className="card-container padding-container">
       <span className="heading-style">
         <img src={EdenLogo} alt="logo" /> 
         <h2 style={{marginLeft: '4px'}}>Eden</h2>
